@@ -1,307 +1,335 @@
 export const clinic = {
-  // === IDENTIDAD ===
-  name: "Centro Estética CyM",
-  logo: "/images/logo.jpg" as string | null,
-  tagline: "Tu Centro de Belleza en Puertollano",
-  description: "Centro Estética CyM es un centro de belleza integral en Puertollano especializado en micropigmentación, microblading, depilación láser y tratamientos faciales. Profesionales cualificados para realzar tu belleza natural.",
-
-  // === PALETA (Elegante/Spa) ===
+  name: "Andrea Alonso fisioterapia",
+  logo: "/images/logo.png",
+  tagline: "Fisioterapia de confianza en Cantabria",
+  description: "Andrea Alonso fisioterapia es una clínica ambulatoria en Cantabria con 5 estrellas en Google y 45 reseñas. Especializada en fisioterapia manual, lesiones deportivas, rehabilitación de hombro y tratamiento personalizado. Andrea ofrece atención técnica y cercana con resultados visibles desde las primeras sesiones, adaptándose a las necesidades de cada paciente.",
   colors: {
-    primary: "#C9A86C",      // Dorado elegante
-    secondary: "#2D2D2D",    // Gris sofisticado
-    accent: "#D4A574",       // Rosa champán
-    neutral: "#FAF8F5",      // Crema cálido
+    primary: "#04b499",
+    secondary: "#583526",
+    accent: "#583526",
+    neutral: "#ebf9f7"
   },
-
-  // === CONTACTO ===
-  phone: "629 61 04 71",
-  whatsapp: "+34629610471",
-  whatsappMessage: "Hola, me gustaría solicitar información sobre vuestros tratamientos de estética.",
-  email: "info@esteticacym.es",
-
-  // === UBICACIÓN ===
+  phone: "685 62 74 43",
+  whatsapp: "+34685627443",
+  whatsappMessage: "Hola, me gustaría solicitar información sobre vuestros tratamientos de fisioterapia.",
+  email: "",
   address: {
-    street: "C. Numancia, 40",
-    city: "Puertollano",
-    province: "Ciudad Real",
-    postalCode: "13500",
-    country: "España",
+    street: "Calle Jesús de Monasterio, 24, entresuelo derecha, 39010 Santander, Cantabria, España",
+    city: "Cantabria",
+    province: "Álava",
+    postalCode: "39010",
+    country: "España"
   },
-  googleMapsUrl: "https://maps.google.com/?q=C.+Numancia+40+Puertollano",
-  googleMapsEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3144.5!2d-4.1078!3d38.6872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6d1f1a8a8a8a8a%3A0x0!2sC.+Numancia%2C+40%2C+13500+Puertollano!5e0!3m2!1ses!2ses!4v1",
-  coordinates: { lat: 38.6872, lng: -4.1078 },
-
-  // === HORARIOS ===
+  googleMapsUrl: "https://maps.google.com/?cid=3881032088167569663&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  googleMapsEmbed: "https://maps.google.com/maps?q=Andrea%20Alonso%20fisioterapia%20%4043.4619%2C-3.81377&z=16&output=embed",
+  coordinates: {
+    lat: 43.4619,
+    lng: -3.81377
+  },
   schedule: [
-    { days: "Lunes - Viernes", hours: "10:00 - 20:00" },
-    { days: "Sábado", hours: "Cerrado" },
-    { days: "Domingo", hours: "Cerrado" },
+    {
+      days: "Lunes - Viernes",
+      hours: "09:00 - 20:00"
+    },
+    {
+      days: "Sábado",
+      hours: "Consultar"
+    },
+    {
+      days: "Domingo",
+      hours: "Cerrado"
+    }
   ],
-
-  // === REDES SOCIALES ===
   social: {
-    instagram: "https://www.instagram.com/centrodeesteticacym/",
-    facebook: "https://www.facebook.com/centrodeesteticacym/",
-    linkedin: null as string | null,
-    tiktok: null as string | null,
+    instagram: null,
+    facebook: null,
+    linkedin: null,
+    tiktok: null
   },
-
-  // === RESEÑAS GOOGLE ===
   reviews: {
-    rating: 4.7,
-    count: 190,
-    url: "#",
+    rating: 5,
+    count: 45,
+    url: "https://maps.google.com/?cid=3881032088167569663&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
     featured: [
       {
-        author: "Eva León",
+        author: "FitLab",
         rating: 5,
-        text: "Increíble trabajo de micropigmentación. El resultado es muy natural y el trato inmejorable. Sin duda volveré para más tratamientos.",
-        date: "hace 2 semanas",
+        text: "Andea es una gran profesional. Llevé a mi hija pequeña por un problema en el brazo y el trato ha sido de diez, con resultados desde la primera sesión. Ya la conocía por redes sociales y es un placer ver que la profesionalidad y conocimiento que transmite en sus vídeos se traduce en una atención real, técnica y cercana en consulta. Totalmente recomendable!",
+        date: "Hace 2 semanas"
       },
       {
-        author: "Javier Padilla",
+        author: "Adrián Aldridge",
         rating: 5,
-        text: "Excelente profesionalidad en todos los tratamientos. Las instalaciones son muy modernas y el ambiente muy relajante.",
-        date: "hace 1 mes",
+        text: "Excelente profesional. Andrea me ha ayudado muchísimo con una rotura del labrum del hombro, aliviando el dolor y mejorando mi movilidad desde las primeras sesiones. Es mi fisioterapeuta de confianza para cualquier molestia o lesión. Trato cercano, gran conocimiento y resultados visibles. Totalmente recomendable.",
+        date: "Hace 3 meses"
       },
       {
-        author: "Melanie Ponce",
+        author: "ainara gomez",
         rating: 5,
-        text: "Me encantó el resultado del microblading. Quedé muy satisfecha con el trabajo realizado. Muy recomendable.",
-        date: "hace 1 mes",
+        text: "El trato es genial, fui recomendada por mi pareja y sin duda Andrea ha conseguido superar mis expectativas como fisioterapeuta. Te hace sentir cómoda desde el primer día, un trato personalizado y con movilidad ante las citas.",
+        date: "Hace 10 meses"
       },
       {
-        author: "María Teresa Salguero",
+        author: "Regina",
         rating: 5,
-        text: "El mejor centro de estética de Puertollano. Tratamientos de calidad y atención personalizada. Volveré seguro.",
-        date: "hace 2 meses",
+        text: "Una fisio genial ,yo soy muy desconfiada con los fisioterapeutas y me recomendaron a Andrea y la verdad que estoy encantada me ayuda mucho y me encuentro mucho mejor desde que voy.  Lo recomiendo 100%",
+        date: "Hace 4 meses"
       },
-    ],
+      {
+        author: "Reyes Depaz",
+        rating: 5,
+        text: "Muy buena profesional, desde hace siete años más o menos que me atiende cuando necesito ayuda de fisioterapia. Además como persona un 10.",
+        date: "Hace 4 meses"
+      }
+    ]
   },
-
-  // === SERVICIOS ===
   services: [
     {
-      id: "micropigmentacion",
-      name: "Micropigmentación",
-      description: "Técnica avanzada de maquillaje semipermanente para cejas, labios y ojos. Resultados naturales y duraderos que realzan tu belleza.",
-      benefits: ["Resultados naturales", "Larga duración", "Mínimo mantenimiento"],
-      icon: "Sparkles",
+      id: "fisioterapia-manual",
+      name: "Fisioterapia Manual",
+      description: "Técnicas manuales especializadas para aliviar el dolor y mejorar la movilidad articular. Tratamiento personalizado adaptado a las necesidades específicas de cada paciente. Resultados visibles desde las primeras sesiones con un enfoque técnico y profesional.",
+      benefits: [
+        "Alivio inmediato del dolor",
+        "Mejora de la movilidad articular",
+        "Tratamiento 100% personalizado"
+      ],
+      icon: "Hand"
     },
     {
-      id: "microblading",
-      name: "Microblading de Cejas",
-      description: "Técnica pelo a pelo para cejas perfectamente definidas. Efecto hiperrealista que simula el vello natural.",
-      benefits: ["Efecto pelo a pelo", "Cejas definidas", "Aspecto natural"],
-      icon: "Feather",
+      id: "lesiones-hombro",
+      name: "Lesiones de Hombro",
+      description: "Especialización en tratamiento de lesiones de hombro, incluyendo roturas de labrum y problemas de movilidad. Técnicas avanzadas para aliviar el dolor y recuperar la funcionalidad completa. Acompañamiento continuo durante todo el proceso de rehabilitación.",
+      benefits: [
+        "Reducción efectiva del dolor",
+        "Recuperación de movilidad completa",
+        "Seguimiento personalizado"
+      ],
+      icon: "Target"
     },
     {
-      id: "depilacion-laser",
-      name: "Depilación Láser",
-      description: "Eliminación definitiva del vello con tecnología láser de última generación. Tratamientos seguros y efectivos.",
-      benefits: ["Resultados permanentes", "Sin dolor", "Piel suave"],
-      icon: "Zap",
+      id: "fisioterapia-deportiva",
+      name: "Fisioterapia Deportiva",
+      description: "Recuperación y prevención de lesiones deportivas con técnicas avanzadas. Tratamiento específico para deportistas que buscan volver a su actividad lo antes posible. Enfoque integral que combina terapia manual con ejercicios de rehabilitación.",
+      benefits: [
+        "Recuperación acelerada",
+        "Prevención de recaídas",
+        "Vuelta segura al deporte"
+      ],
+      icon: "Dumbbell"
     },
     {
-      id: "tratamientos-faciales",
-      name: "Tratamientos Faciales",
-      description: "Cuidados personalizados para cada tipo de piel. Hidratación profunda, antiedad y luminosidad para un rostro radiante.",
-      benefits: ["Piel rejuvenecida", "Hidratación profunda", "Luminosidad"],
-      icon: "Flower2",
+      id: "fisioterapia-pediatrica",
+      name: "Fisioterapia Pediátrica",
+      description: "Tratamiento especializado para niños con problemas musculoesqueléticos y lesiones. Atención cercana y adaptada a los más pequeños con resultados desde la primera sesión. Ambiente cómodo y seguro donde los niños se sienten tranquilos durante el tratamiento.",
+      benefits: [
+        "Trato especializado para niños",
+        "Resultados rápidos y efectivos",
+        "Ambiente confiable y cercano"
+      ],
+      icon: "Heart"
     },
     {
-      id: "tratamientos-corporales",
-      name: "Tratamientos Corporales",
-      description: "Tratamientos reductores, reafirmantes y anticelulíticos. Moldea tu silueta con las técnicas más avanzadas.",
-      benefits: ["Reduce centímetros", "Reafirma la piel", "Elimina celulitis"],
-      icon: "Heart",
+      id: "rehabilitacion",
+      name: "Rehabilitación",
+      description: "Programas de rehabilitación personalizados para recuperar la funcionalidad después de lesiones o cirugías. Seguimiento continuo y adaptación del tratamiento según la evolución del paciente. Combinación de terapia manual con ejercicios específicos de recuperación.",
+      benefits: [
+        "Programas adaptados a tu evolución",
+        "Seguimiento continuo",
+        "Recuperación funcional completa"
+      ],
+      icon: "Activity"
     },
     {
-      id: "manicura-pedicura",
-      name: "Manicura y Pedicura",
-      description: "Cuidado completo de manos y pies con esmaltes de alta calidad. Uñas perfectas con diseños personalizados.",
-      benefits: ["Uñas perfectas", "Manos cuidadas", "Diseños exclusivos"],
-      icon: "Hand",
+      id: "puncion-seca",
+      name: "Punción Seca",
+      description: "Tratamiento de puntos gatillo miofasciales para eliminar contracturas y dolor crónico. Técnica efectiva para dolores musculares persistentes que no responden a otros tratamientos. Aplicación precisa y profesional para máximos resultados.",
+      benefits: [
+        "Eliminación de contracturas profundas",
+        "Alivio del dolor crónico",
+        "Resultados duraderos"
+      ],
+      icon: "Target"
     },
     {
-      id: "extensiones-pestanas",
-      name: "Extensiones de Pestañas",
-      description: "Mirada impactante con extensiones de pestañas pelo a pelo. Efecto natural o dramático según tu preferencia.",
-      benefits: ["Mirada intensa", "Efecto natural", "Sin máscara"],
-      icon: "Eye",
+      id: "tratamiento-dolor-cronico",
+      name: "Tratamiento de Dolor Crónico",
+      description: "Abordaje integral del dolor crónico con técnicas manuales avanzadas y terapias complementarias. Tratamiento personalizado que identifica y trata la causa raíz del dolor. Seguimiento continuo para mejorar tu calidad de vida de forma sostenible.",
+      benefits: [
+        "Reducción significativa del dolor",
+        "Mejora de la calidad de vida",
+        "Soluciones a largo plazo"
+      ],
+      icon: "Zap"
     },
     {
-      id: "maquillaje-profesional",
-      name: "Maquillaje Profesional",
-      description: "Maquillaje para eventos especiales, novias y sesiones fotográficas. Realza tu belleza para cada ocasión.",
-      benefits: ["Look personalizado", "Alta duración", "Acabado profesional"],
-      icon: "Palette",
-    },
+      id: "valoracion-personalizada",
+      name: "Valoración Personalizada",
+      description: "Evaluación completa de tu estado físico para diseñar un plan de tratamiento específico. Análisis detallado de tu lesión o molestia con explicación clara del proceso de recuperación. Primera sesión donde establecemos objetivos realistas y tiempos de tratamiento.",
+      benefits: [
+        "Diagnóstico preciso",
+        "Plan de tratamiento personalizado",
+        "Objetivos claros desde el inicio"
+      ],
+      icon: "Activity"
+    }
   ],
-
-  // === PROCESO ===
   process: [
     {
       step: 1,
       title: "Contacta",
-      description: "Solicita tu cita de consulta inicial por teléfono o WhatsApp",
+      description: "Solicita tu cita por teléfono al 685 62 74 43 o WhatsApp. Flexibilidad horaria y movilidad ante las citas para adaptarnos a tu agenda. Respuesta rápida y atención personalizada desde el primer contacto."
     },
     {
       step: 2,
-      title: "Consulta",
-      description: "Analizamos tus necesidades y diseñamos el tratamiento ideal para ti",
+      title: "Valoración Inicial",
+      description: "Evaluación completa de tu lesión o molestia con análisis detallado de tu estado físico. Diseñamos un plan de tratamiento personalizado explicando cada paso del proceso. Establecemos objetivos claros y tiempos de recuperación realistas."
     },
     {
       step: 3,
-      title: "Tratamiento",
-      description: "Realizamos el tratamiento con las técnicas más avanzadas y productos de calidad",
+      title: "Tratamiento Personalizado",
+      description: "Aplicamos técnicas manuales especializadas adaptadas a tus necesidades específicas. Tratamiento técnico y cercano donde te sentirás cómodo desde el primer día. Resultados visibles desde las primeras sesiones con alivio del dolor y mejora de movilidad."
     },
     {
       step: 4,
-      title: "Resultados",
-      description: "Disfruta de resultados espectaculares y un seguimiento personalizado",
-    },
+      title: "Seguimiento Continuo",
+      description: "Acompañamiento durante todo el proceso de recuperación con seguimiento personalizado. Adaptamos el tratamiento según tu evolución para optimizar resultados. Apoyo continuo hasta tu completa recuperación y vuelta a tu actividad normal."
+    }
   ],
-
-  // === POR QUÉ ELEGIRNOS ===
   whyUs: [
     {
-      title: "Especialistas en Micropigmentación",
-      description: "Técnicas avanzadas de micropigmentación y microblading con resultados naturales y duraderos",
-      icon: "Award",
+      title: "5 Estrellas en Google",
+      description: "Valoración de 5 estrellas basada en 45 reseñas reales de pacientes satisfechos. Nuestros pacientes destacan el trato cercano, la profesionalidad y los resultados visibles desde las primeras sesiones. Tu confianza es nuestra mejor carta de presentación.",
+      icon: "Award"
     },
     {
-      title: "Tecnología de Vanguardia",
-      description: "Equipos de última generación para tratamientos más efectivos y seguros",
-      icon: "Cpu",
+      title: "Más de 7 Años de Experiencia",
+      description: "Andrea cuenta con más de 7 años de experiencia tratando todo tipo de lesiones y dolencias. Profesional de confianza que combina conocimiento técnico avanzado con un trato humano y cercano. Experiencia demostrada en fisioterapia manual, lesiones deportivas y rehabilitación.",
+      icon: "CheckCircle"
     },
     {
-      title: "Atención Personalizada",
-      description: "Cada clienta recibe un tratamiento único adaptado a sus necesidades y deseos",
-      icon: "UserCheck",
+      title: "Resultados desde la Primera Sesión",
+      description: "La mayoría de nuestros pacientes experimentan alivio del dolor y mejora de movilidad desde la primera sesión. Aplicamos técnicas manuales especializadas con enfoque personalizado para cada caso. Tratamiento efectivo que marca la diferencia desde el primer día.",
+      icon: "Target"
     },
     {
-      title: "Valoración 4.7 Estrellas",
-      description: "190 clientas satisfechas nos avalan con excelentes valoraciones en Google",
-      icon: "Star",
-    },
+      title: "Atención Personalizada y Flexible",
+      description: "Cada tratamiento se diseña específicamente para tus necesidades con seguimiento continuo. Ofrecemos flexibilidad horaria y movilidad ante las citas para adaptarnos a tu agenda. Te hacemos sentir cómodo desde el primer día con un trato cercano y profesional.",
+      icon: "Users"
+    }
   ],
-
-  // === EQUIPO ===
   team: [
     {
-      name: "Centro Estética CyM",
-      role: "Especialistas en Micropigmentación",
+      name: "Andrea Alonso",
+      role: "Fisioterapeuta",
       image: "/images/team/placeholder.jpg",
-      bio: "Profesionales apasionadas por la belleza y el cuidado personal. Con años de experiencia en micropigmentación, microblading y tratamientos estéticos, nos dedicamos a realzar la belleza natural de cada clienta.",
-    },
+      bio: "Profesionales apasionados por la fisioterapia y la rehabilitación. En Andrea Alonso fisioterapia nos dedicamos a devolver la calidad de vida a nuestros pacientes con tratamientos personalizados y tecnología avanzada."
+    }
   ],
-
-  // === GALERÍA ===
   gallery: [
-    { src: "/images/gallery/local-fuera.webp", alt: "Fachada del Centro Estética CyM" },
-    { src: "/images/gallery/local-dentro.webp", alt: "Interior del centro - Recepción" },
-    { src: "/images/gallery/clinica-dentro1.webp", alt: "Sala de tratamientos" },
+    {
+      src: "/images/hero.webp",
+      alt: "Andrea Alonso fisioterapia - Imagen 1"
+    },
+    {
+      src: "/images/gallery/2.webp",
+      alt: "Andrea Alonso fisioterapia - Imagen 2"
+    }
   ],
-
-  // === FAQ ===
   faq: [
     {
-      question: "¿Cuánto dura la micropigmentación?",
-      answer: "La micropigmentación puede durar entre 1 y 3 años dependiendo del tipo de piel, cuidados posteriores y la zona tratada. Ofrecemos retoques para mantener el resultado óptimo.",
+      question: "¿Qué tipo de lesiones trata Andrea Alonso fisioterapia?",
+      answer: "En Andrea Alonso fisioterapia tratamos lesiones musculoesqueléticas, problemas de hombro como roturas de labrum, lesiones deportivas, dolor crónico, contracturas y molestias en niños. Nos especializamos en fisioterapia manual con técnicas avanzadas para todo tipo de pacientes. Cada tratamiento es personalizado según las necesidades específicas de cada persona."
     },
     {
-      question: "¿Es doloroso el microblading de cejas?",
-      answer: "El procedimiento es prácticamente indoloro gracias a la aplicación de crema anestésica tópica. La mayoría de clientas describen la sensación como un ligero cosquilleo.",
+      question: "¿Cuántas sesiones necesitaré para recuperarme?",
+      answer: "El número de sesiones depende del tipo y gravedad de tu lesión, pero muchos pacientes experimentan alivio y mejora desde la primera sesión. Durante la valoración inicial establecemos un plan de tratamiento con objetivos y tiempos realistas. Realizamos seguimiento continuo y adaptamos el tratamiento según tu evolución para optimizar tu recuperación."
     },
     {
-      question: "¿Cuántas sesiones necesito para la depilación láser?",
-      answer: "Generalmente se necesitan entre 6 y 8 sesiones espaciadas cada 4-6 semanas para obtener resultados óptimos. El número exacto depende del tipo de piel y vello.",
+      question: "¿Cómo puedo solicitar una cita?",
+      answer: "Puedes solicitar tu cita llamando al 685 62 74 43 o enviando un mensaje por WhatsApp. Ofrecemos flexibilidad horaria y movilidad ante las citas para adaptarnos a tu agenda. Respuesta rápida y atención personalizada desde el primer contacto para que puedas comenzar tu tratamiento cuanto antes."
     },
     {
-      question: "¿Qué cuidados necesito después de un tratamiento facial?",
-      answer: "Recomendamos evitar el sol directo, usar protección solar SPF50 y seguir la rutina de cuidados que te indicamos según tu tipo de piel.",
+      question: "¿Andrea trata a niños?",
+      answer: "Sí, en Andrea Alonso fisioterapia ofrecemos tratamiento especializado para niños con un trato cercano y adaptado a los más pequeños. Tenemos experiencia en problemas de brazo, lesiones y otras molestias infantiles con resultados desde la primera sesión. Creamos un ambiente cómodo y seguro donde los niños se sienten tranquilos durante el tratamiento."
     },
     {
-      question: "¿Ofrecéis tratamientos para novias?",
-      answer: "Sí, tenemos packs especiales para novias que incluyen tratamientos faciales, maquillaje de prueba y el día de la boda, manicura y más.",
+      question: "¿Qué opinan los pacientes sobre el servicio?",
+      answer: "Andrea Alonso fisioterapia cuenta con una valoración de 5 estrellas en Google basada en 45 reseñas de pacientes reales. Los pacientes destacan el trato cercano, la profesionalidad, los resultados visibles desde las primeras sesiones y la atención personalizada. Muchos mencionan que es su fisioterapeuta de confianza y recomiendan el servicio al 100%."
     },
     {
-      question: "¿Las extensiones de pestañas dañan mis pestañas naturales?",
-      answer: "No, cuando se aplican correctamente por profesionales cualificados, las extensiones no dañan las pestañas naturales. Usamos adhesivos de alta calidad y técnicas seguras.",
+      question: "¿Qué hace diferente a Andrea Alonso fisioterapia?",
+      answer: "La combinación de profesionalidad técnica con un trato cercano y personalizado nos diferencia. Andrea transmite el mismo conocimiento y cercanía que muestra en redes sociales en cada consulta presencial. Con más de 7 años de experiencia, ofrecemos flexibilidad en las citas, seguimiento continuo y resultados visibles desde las primeras sesiones."
     },
     {
-      question: "¿Cuánto dura una sesión de tratamiento facial?",
-      answer: "Dependiendo del tratamiento, las sesiones duran entre 45 y 90 minutos. Incluimos tiempo para la consulta inicial y recomendaciones personalizadas.",
+      question: "¿Tratáis lesiones deportivas y de hombro?",
+      answer: "Sí, las lesiones deportivas y problemas de hombro son una de nuestras especialidades en Andrea Alonso fisioterapia. Tenemos amplia experiencia en roturas de labrum, problemas de movilidad del hombro y lesiones deportivas diversas. Aplicamos técnicas manuales avanzadas que alivian el dolor y mejoran la movilidad desde las primeras sesiones, con seguimiento hasta la recuperación completa."
     },
     {
-      question: "¿Necesito cita previa?",
-      answer: "Sí, recomendamos siempre reservar cita previa para garantizar la disponibilidad y poder dedicarte el tiempo que mereces. Puedes reservar por teléfono o WhatsApp.",
-    },
+      question: "¿Dónde está ubicada la clínica?",
+      answer: "Andrea Alonso fisioterapia está ubicada en Cantabria, Álava. Somos una clínica ambulatoria especializada en fisioterapia y tratamiento manual. Para conocer la dirección exacta y solicitar tu cita, puedes contactarnos al 685 62 74 43 por teléfono o WhatsApp."
+    }
   ],
-
-  // === SEO ===
   seo: {
-    titleTemplate: "%s | Centro Estética CyM - Belleza en Puertollano",
-    defaultTitle: "Centro Estética CyM | Tu Centro de Belleza en Puertollano",
-    defaultDescription: "Centro de estética en Puertollano especializado en micropigmentación, microblading, depilación láser y tratamientos faciales. Profesionales cualificados. Cita previa: 629 61 04 71.",
+    titleTemplate: "%s | Andrea Alonso fisioterapia",
+    defaultTitle: "Andrea Alonso Fisioterapia en Cantabria | 5★ Google",
+    defaultDescription: "Fisioterapia manual especializada en Cantabria. Lesiones deportivas, hombro, dolor crónico y más. 5 estrellas en Google. Resultados desde la 1ª sesión. ☎️ 685 62 74 43",
     keywords: [
-      "centro estética Puertollano",
-      "micropigmentación Puertollano",
-      "microblading cejas Puertollano",
-      "depilación láser Puertollano",
-      "tratamientos faciales Puertollano",
-      "extensiones pestañas Puertollano",
-      "maquillaje profesional",
-      "manicura pedicura",
-      "tratamientos corporales",
-      "belleza Puertollano",
-      "Centro Estética CyM",
-      "estética Ciudad Real",
+      "fisioterapia Cantabria",
+      "Andrea Alonso fisioterapia",
+      "fisioterapeuta Cantabria",
+      "lesiones hombro Cantabria",
+      "fisioterapia deportiva Cantabria",
+      "fisioterapia manual Cantabria",
+      "rehabilitación Cantabria",
+      "fisioterapia pediátrica Cantabria",
+      "dolor crónico Cantabria",
+      "punción seca Cantabria",
+      "clínica fisioterapia Álava",
+      "fisioterapeuta Álava"
     ],
-    ogImage: "/og-image.jpg",
+    ogImage: "/og-image.jpg"
   },
-
-  // === LEGAL ===
   legal: {
-    companyName: "Centro Estética CyM",
+    companyName: "Andrea Alonso fisioterapia",
     cif: "",
-    registeredAddress: "C. Numancia, 40, 13500 Puertollano, Ciudad Real",
+    registeredAddress: "Calle Jesús de Monasterio, 24, entresuelo derecha, 39010 Santander, Cantabria, España, Cantabria, Álava"
   },
-
-  // === UI COPY (driven by clinic type) ===
-  heroHeadline: ["Tu Centro de", "Belleza", "en Puertollano"],
-  heroDescription: "Realza tu belleza natural con tratamientos de micropigmentación, microblading y estética avanzada. Profesionales cualificadas y tecnología de vanguardia.",
-  specialty: "Micropigmentación",
-  ctaLabel: "Realza tu Belleza",
-  ctaHeadline: "¿Lista para brillar?",
-  ctaDescription: "Da el primer paso hacia tu mejor versión. Pide tu cita ahora y nuestro equipo te asesorará de forma personalizada.",
-  statsLabel: "Clientas",
-  schemaType: "BeautySalon",
+  heroHeadline: [
+    "Tu Centro de",
+    "Fisioterapia",
+    "en Cantabria"
+  ],
+  heroDescription: "Clínica de fisioterapia especializada en tratamiento manual y lesiones deportivas. Con más de 7 años de experiencia, ofrecemos atención personalizada y resultados desde la primera sesión. Valoración de 5 estrellas en Google con 45 reseñas de pacientes satisfechos.",
+  specialty: "Fisioterapia Manual Especializada",
+  ctaLabel: "Tu Recuperación",
+  ctaHeadline: "¿Preparado para recuperar tu movilidad y bienestar?",
+  ctaDescription: "Solicita tu cita de valoración y comienza tu recuperación con un tratamiento personalizado. Trato cercano, técnica avanzada y resultados visibles desde las primeras sesiones.",
+  statsLabel: "Pacientes",
+  schemaType: "PhysicalTherapy",
   sectionCopy: {
     servicesLabel: "Nuestros Servicios",
     servicesTitle: "Tratamientos especializados",
-    servicesDescription: "Técnicas avanzadas de estética y belleza para realzar tu imagen y cuidar de ti.",
+    servicesDescription: "Soluciones profesionales adaptadas a tus necesidades de salud.",
     processLabel: "Cómo Trabajamos",
-    processTitle: "Tu camino hacia la belleza en 4 pasos",
+    processTitle: "Tu camino hacia la recuperación en 4 pasos",
     processDescription: "Un proceso simple y transparente diseñado para tu comodidad.",
     whyUsLabel: "Por Qué Elegirnos",
-    whyUsTitle: "Tu belleza, nuestra pasión",
-    whyUsDescription: "Combinamos experiencia, las mejores técnicas y un trato personalizado para realzar tu belleza natural.",
+    whyUsTitle: "Tu salud, nuestra prioridad",
+    whyUsDescription: "Combinamos experiencia, las mejores técnicas y un trato personalizado para cuidar de tu salud.",
     reviewsLabel: "Opiniones",
-    reviewsTitle: "Lo que dicen nuestras clientas",
+    reviewsTitle: "Lo que dicen nuestros pacientes",
     galleryLabel: "Instalaciones",
-    galleryTitle: "Conoce nuestro centro",
-    galleryDescription: "Un espacio diseñado para tu bienestar y relajación",
+    galleryTitle: "Conoce nuestra clínica",
+    galleryDescription: "Un espacio diseñado para tu bienestar y recuperación",
     faqLabel: "FAQ",
     faqTitle: "Preguntas frecuentes",
-    faqDescription: "Resolvemos las dudas más comunes de nuestras clientas.",
+    faqDescription: "Resolvemos las dudas más comunes de nuestros pacientes.",
     locationLabel: "Ubicación",
     locationTitle: "Cómo llegar",
     teamLabel: "Nuestro Equipo",
-    teamTitle: "Profesionales especializadas",
-    teamDescription: "Experiencia y pasión al servicio de tu belleza",
-  },
+    teamTitle: "Profesionales especializados",
+    teamDescription: "Experiencia y dedicación al servicio de tu salud"
+  }
 }
 
 export type Clinic = typeof clinic
